@@ -15,6 +15,7 @@ int main(int argc, char const *argv[])
     uni = num%10;
 
     // Exibição do resultado
-    printf("Inverso: %d\n", (uni*100)+(dez*10)+(cent));
+    printf("Invertido: %d\n", (uni*100)+(dez*10)+(cent));
+
     return 0;
 }

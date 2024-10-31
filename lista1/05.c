@@ -17,9 +17,9 @@ int main(int argc, char const *argv[])
 
     // Controle de fluxo para exibição do resultado
     if(sexo == 'h') {
-        printf("Peso ideal: %.2f\n", 72.7*altura - 58); // Calculo feito no arg. da função 'printf'
+        printf("Peso ideal: %.2f\n", (72.7*altura) - 58); // Calculo feito no arg. da função 'printf'
     } else {
-        printf("Peso ideal: %.2f\n", 62.1*altura - 44.7); // Calculo feito no arg. da função 'printf'
+        printf("Peso ideal: %.2f\n", (62.1*altura) - 44.7); // Calculo feito no arg. da função 'printf'
     }
     
     return 0;

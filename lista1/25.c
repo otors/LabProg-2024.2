@@ -17,7 +17,9 @@ int main(int argc, char const *argv[])
     scanf("%f", &x[1]);
     printf(" — y₂: ");
     scanf("%f", &y[1]);
-
+    
+    // Exibição do resultado pela formula dada
     printf("Distância: %.2f\n", sqrt((pow((x[1]-x[0]), 2.0) + pow((y[1]-y[0]), 2.0))));
+    
     return 0;
 }
