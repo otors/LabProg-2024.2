@@ -97,8 +97,7 @@ int main(int argc, char const *argv[])
 
 /*
     Essa função recebe uma variável de controle para mostrar os bits 
-    da variavel em uma tabela, e uma variavel que define o tempo que
-    a tabela ficará exposta.
+    da variavel em uma tabela.
 
     *controle: variavel de controle para observação dos bits. Troque 
                o tipo da variavel para mais bits.
