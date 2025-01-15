@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+#define WIDTH 80
+#define HEIGHT 45
+#define MX 256
+#define W 3
+
 typedef struct pixel {
     unsigned char r, g, b;
 } Pixel;
@@ -11,11 +16,6 @@ typedef enum display {
     RGB,
     BLOCKS
 } Display;
-
-#define WIDTH 80
-#define HEIGHT 45
-#define MX 256
-#define W 3
 
 Pixel generateRandomPixel();
 void setTextColor(unsigned char r, unsigned char g, unsigned char b);
